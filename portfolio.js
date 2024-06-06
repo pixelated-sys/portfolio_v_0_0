@@ -49,3 +49,10 @@ if(window.innerWidth >= 1100){
         pic.setAttribute("class","photo");
     }
 }
+
+if(window.innerWidth < 1099){
+    var contact = document.getElementsByClassName("contact")[0].firstChild;
+    contact.setAttribute("href","https://www.linkedin.com/in/praveen-v-468730285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app");
+    var work = document.getElementsByClassName("work")[0].firstChild;
+    work.setAttribute("href","https://github.com/pixelated-sys");
+}
